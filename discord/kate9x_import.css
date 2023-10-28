@@ -1584,8 +1584,10 @@ div:first-child + .userPanelOverlayBackground__34fc8 {
 .layer__2efaa + .layer__2efaa {
     width: var(--kate-modal-width);
     height: var(--kate-modal-height);
+    max-height: 80%;
     left: calc(50% - (var(--kate-modal-width) / 2));
-    top: calc(50% - (var(--kate-modal-height) / 2) - 20px);
+    /*top: calc(50% - (var(--kate-modal-height) / 2) - 20px);*/
+    top: 40px;
     background: transparent;
 }
 
