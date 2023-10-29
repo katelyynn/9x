@@ -1896,7 +1896,7 @@ div:first-child + .userPanelOverlayBackground__34fc8 {
     background: hsl(var(--b3));
 }
 
-.container__871ba {
+.container__871ba:not(.default-colors) {
     display: none;
 }
 
