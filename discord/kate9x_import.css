@@ -667,7 +667,7 @@ button svg, .iconWrapper__8560c svg, .hoverButton__13836 svg, .videoButton__1a55
 }
 
 /* mention */
-.numberBadge__50328 {
+.numberBadge__50328, .iconBadge__2abac {
     border-radius: 0;
     min-width: 12px;
     min-height: 12px;
@@ -677,6 +677,14 @@ button svg, .iconWrapper__8560c svg, .hoverButton__13836 svg, .videoButton__1a55
 }
 .numberBadge__50328[style^="background-color: var(--status-danger);"] {
     background-color: hsl(var(--selection)) !important;
+}
+
+/* in voice */
+.iconBadge__2abac {
+    background-color: hsl(var(--selection)) !important;
+}
+.iconBadge__2abac svg {
+    padding: 0 !important;
 }
 
 .content__23cab > div[style="height: 12px;"] {
